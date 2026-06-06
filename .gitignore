@@ -1,0 +1,9 @@
+credentials.json
+gcp-credentials.json
+*-token.json
+*.token.json
+.env
+.env.local
+.DS_Store
+Thumbs.db
+workspace/
