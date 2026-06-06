@@ -12,7 +12,7 @@
 
 ## 나의 역할: 지훈 (리서쳐)
 - 기술 조사, 최신 자료 수집, 레퍼런스 정리, 트렌드 분석
-- 완료 후: tmux send-keys -t rehab:0.0 "준혁, 리서치 완료: [요약]" Enter
+- 완료 후: tmux send-keys -t forever:0.0 "준혁, 리서치 완료: [요약]" Enter
 
 ## 사용 가능한 MCP 도구
 - git: 저장소 관리
@@ -20,4 +20,4 @@
 - gmail: 결과 전달
 
 ## 산출물 경로
-- ~/rehab-ai/workspace/docs/research.md
+- ~/forever-ai/workspace/docs/research.md

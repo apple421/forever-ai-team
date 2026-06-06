@@ -29,7 +29,7 @@ Claude Code 기반 AI 멀티에이전트 팀입니다.
 ### Step 1 — install.bat 더블클릭
 
 ```
-C:\rehab-ai-team\
+C:\forever-ai-team\
 │
 └── install.bat  ← 이걸 더블클릭!
 ```
@@ -60,7 +60,7 @@ C:\rehab-ai-team\
 [4/8] MCP 서버 설치 (Git, Google Drive, Gmail)
   ✓ 완료
 [5/8] 워크스페이스 디렉터리 생성
-  ✓ ~/rehab-ai 생성 완료
+  ✓ ~/forever-ai 생성 완료
 [6/8] 에이전트 설정 파일 배포
   ✓ junhyeok / minjun / jihun / sua / seoyeon / taeyang
 [7/8] Claude API 키 설정
@@ -84,7 +84,7 @@ C:\rehab-ai-team\
 
 ```
 ╔══════════════════════════════════════════════════════════════════╗
-║  AI Team  |  rehab  |  [Ctrl+B → 화살표: pane 이동]            ║
+║  AI Team  |  forever  |  [Ctrl+B → 화살표: pane 이동]            ║
 ╠═══════════════════════════╦══════════════════════════════════════╣
 ║  👑 준혁 (팀장)           ║  🏗 민준 (아키텍트)                 ║
 ║  ─────────────────────    ║  ────────────────────────────────   ║
@@ -126,7 +126,7 @@ C:\rehab-ai-team\
                ↓ 자동 보고
 ┌─ 👑 준혁 (팀장) ──────────────────────────────────────┐
 │  ✅ [팀원] 완료: [결과 요약]                          │
-│  저장 위치: ~/rehab-ai/workspace/                     │
+│  저장 위치: ~/forever-ai/workspace/                     │
 └────────────────────────────────────────────────────────┘
 ```
 
@@ -139,7 +139,7 @@ C:\rehab-ai-team\
 | `Ctrl+B` 후 화살표 | pane 이동 |
 | `Ctrl+B` 후 `z` | 현재 pane 전체화면/복원 |
 | `Ctrl+B` 후 `d` | 세션 분리 (팀은 계속 실행) |
-| `tmux attach -t rehab` | 분리된 세션 재연결 |
+| `tmux attach -t forever` | 분리된 세션 재연결 |
 
 ---
 
@@ -147,10 +147,10 @@ C:\rehab-ai-team\
 
 **AI 팀이 응답하지 않는 경우:**
 ```bash
-bash ~/rehab-ai/start.sh
+bash ~/forever-ai/start.sh
 ```
 
 **Google Drive/Gmail 연동 오류:**
 ```bash
-bash ~/rehab-ai/setup-google.sh
+bash ~/forever-ai/setup-google.sh
 ```

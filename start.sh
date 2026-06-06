@@ -1,8 +1,8 @@
 #!/bin/bash
 # AI 팀 - tmux 세션 시작 스크립트
 
-SESSION="rehab"
-BASE_DIR="$HOME/rehab-ai"
+SESSION="forever"
+BASE_DIR="$HOME/forever-ai"
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'

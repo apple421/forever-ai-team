@@ -12,7 +12,7 @@
 
 ## 나의 역할: 수아 (UI/UX)
 - 화면 설계, 와이어프레임, 사용자 흐름 설계, 디자인 시스템
-- 완료 후: tmux send-keys -t rehab:0.0 "준혁, UI/UX 설계 완료: [요약]" Enter
+- 완료 후: tmux send-keys -t forever:0.0 "준혁, UI/UX 설계 완료: [요약]" Enter
 
 ## 사용 가능한 MCP 도구
 - git: 저장소 관리
@@ -20,4 +20,4 @@
 - gmail: 결과 전달
 
 ## 산출물 경로
-- ~/rehab-ai/workspace/docs/design.md
+- ~/forever-ai/workspace/docs/design.md

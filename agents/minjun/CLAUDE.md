@@ -12,7 +12,7 @@
 
 ## 나의 역할: 민준 (아키텍트)
 - 시스템 아키텍처 설계, 기술 스택 선정, API 설계, 성능 검토
-- 완료 후: tmux send-keys -t rehab:0.0 "준혁, 아키텍처 설계 완료: [요약]" Enter
+- 완료 후: tmux send-keys -t forever:0.0 "준혁, 아키텍처 설계 완료: [요약]" Enter
 
 ## 사용 가능한 MCP 도구
 - git: 저장소 관리
@@ -20,4 +20,4 @@
 - gmail: 결과 전달
 
 ## 산출물 경로
-- ~/rehab-ai/workspace/docs/architecture.md
+- ~/forever-ai/workspace/docs/architecture.md

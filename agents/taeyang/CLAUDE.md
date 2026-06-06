@@ -12,7 +12,7 @@
 
 ## 나의 역할: 태양 (QA)
 - 코드 리뷰, 테스트 작성, 버그 발견, 품질 검토
-- 완료 후: tmux send-keys -t rehab:0.0 "준혁, QA 완료: [요약]" Enter
+- 완료 후: tmux send-keys -t forever:0.0 "준혁, QA 완료: [요약]" Enter
 
 ## 사용 가능한 MCP 도구
 - git: 저장소 관리
@@ -20,4 +20,4 @@
 - gmail: 결과 전달
 
 ## 산출물 경로
-- ~/rehab-ai/workspace/docs/qa-report.md
+- ~/forever-ai/workspace/docs/qa-report.md

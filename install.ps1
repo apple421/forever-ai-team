@@ -60,7 +60,7 @@ Write-Color "`n[3/4] 프로젝트 파일을 WSL2로 복사..." "Cyan"
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $wslScriptDir = wsl wslpath -u "$scriptDir" 2>&1
 
-wsl bash -c "cp -r '$wslScriptDir' ~/rehab-ai-deploy-src 2>/dev/null; echo ok"
+wsl bash -c "cp -r '$wslScriptDir' ~/forever-ai-deploy-src 2>/dev/null; echo ok"
 Write-Color "  파일 복사 완료" "Green"
 
 # install.sh 실행
@@ -68,7 +68,7 @@ Write-Color "`n[4/4] 자동 설치 시작..." "Cyan"
 Write-Color "  (이 단계는 5-10분 소요될 수 있습니다)" "Yellow"
 Write-Color ""
 
-wsl bash -c "cd ~/rehab-ai-deploy-src && bash install.sh"
+wsl bash -c "cd ~/forever-ai-deploy-src && bash install.sh"
 
 if ($LASTEXITCODE -eq 0) {
     Write-Color "`n설치가 완료되었습니다!" "Green"
@@ -80,7 +80,7 @@ if ($LASTEXITCODE -eq 0) {
 @echo off
 chcp 65001 >nul
 title AI 팀
-wsl bash -c "source ~/.bashrc && bash ~/rehab-ai/start.sh"
+wsl bash -c "source ~/.bashrc && bash ~/forever-ai/start.sh"
 if %ERRORLEVEL% NEQ 0 pause
 "@
     $shortcutContent | Out-File -FilePath "$desktopPath\AI팀 시작.bat" -Encoding UTF8

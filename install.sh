@@ -14,8 +14,8 @@ CYAN='\033[0;36m'
 NC='\033[0m'
 BOLD='\033[1m'
 
-INSTALL_DIR="$HOME/rehab-ai"
-CONFIG_DIR="$HOME/.config/rehab-ai"
+INSTALL_DIR="$HOME/forever-ai"
+CONFIG_DIR="$HOME/.config/forever-ai"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 AGENTS=("junhyeok" "minjun" "jihun" "sua" "seoyeon" "taeyang" "haeun")
 
@@ -149,7 +149,7 @@ fi
 # ── 워크스페이스 Git 초기화 ───────────────────────────────
 cd "$INSTALL_DIR/workspace"
 git init -q 2>/dev/null || true
-git config user.email "rehab-ai@research.local" 2>/dev/null || true
+git config user.email "forever-ai@research.local" 2>/dev/null || true
 git config user.name "Nephro AI Team" 2>/dev/null || true
 
 # ── 런처 스크립트 복사 ────────────────────────────────────
@@ -165,7 +165,7 @@ echo ""
 echo -e "  AI 팀 시작 방법:"
 echo -e "  ${CYAN}${BOLD}1. Windows 바탕화면의 [AI팀 시작.bat] 더블클릭${NC}"
 echo -e "     또는"
-echo -e "  ${CYAN}${BOLD}2. WSL 터미널에서: bash ~/rehab-ai/start.sh${NC}"
+echo -e "  ${CYAN}${BOLD}2. WSL 터미널에서: bash ~/forever-ai/start.sh${NC}"
 echo ""
 echo -e "  ${YELLOW}* API 키 적용을 위해 WSL 창을 한 번 닫고 다시 여세요.${NC}"
 echo ""

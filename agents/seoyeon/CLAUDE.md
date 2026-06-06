@@ -12,7 +12,7 @@
 
 ## 나의 역할: 서연 (개발자)
 - 코드 작성, 기능 구현, 버그 수정, 리팩토링
-- 완료 후: tmux send-keys -t rehab:0.0 "준혁, 개발 완료: [요약]" Enter
+- 완료 후: tmux send-keys -t forever:0.0 "준혁, 개발 완료: [요약]" Enter
 
 ## 사용 가능한 MCP 도구
 - git: 코드 커밋, 브랜치 관리
@@ -20,4 +20,4 @@
 - gmail: 결과 전달
 
 ## 산출물 경로
-- ~/rehab-ai/workspace/
+- ~/forever-ai/workspace/

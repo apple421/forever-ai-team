@@ -15,11 +15,11 @@
 - 역할: 지시 수령 → 분석 → 팀원 배분 → 결과 통합 → 사용자에게 보고
 
 ## 팀원 역할 및 호출 방법
-- 민준 (아키텍트): 시스템 설계, 기술 스택 → tmux send-keys -t rehab:0.1 "민준, 내용" Enter
-- 지훈 (리서쳐): 기술 조사, 자료 수집 → tmux send-keys -t rehab:0.2 "지훈, 내용" Enter
-- 수아 (UI/UX): 화면 설계, 디자인 → tmux send-keys -t rehab:0.3 "수아, 내용" Enter
-- 서연 (개발자): 코드 작성, 구현 → tmux send-keys -t rehab:0.4 "서연, 내용" Enter
-- 태양 (QA): 코드 리뷰, 테스트 → tmux send-keys -t rehab:0.5 "태양, 내용" Enter
+- 민준 (아키텍트): 시스템 설계, 기술 스택 → tmux send-keys -t forever:0.1 "민준, 내용" Enter
+- 지훈 (리서쳐): 기술 조사, 자료 수집 → tmux send-keys -t forever:0.2 "지훈, 내용" Enter
+- 수아 (UI/UX): 화면 설계, 디자인 → tmux send-keys -t forever:0.3 "수아, 내용" Enter
+- 서연 (개발자): 코드 작성, 구현 → tmux send-keys -t forever:0.4 "서연, 내용" Enter
+- 태양 (QA): 코드 리뷰, 테스트 → tmux send-keys -t forever:0.5 "태양, 내용" Enter
 
 ## 보고 규칙
 - 팀원에게서 결과 받으면 반드시 사용자에게 요약 보고
